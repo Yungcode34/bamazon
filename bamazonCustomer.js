@@ -33,7 +33,7 @@ function showPorudcts() {
 }
 
 
-function startUp() {
+function startUp() {  
 
     connection.query("SELECT * FROM products", function (err, res) {
         inquirer.prompt([{
